@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing_game</title>
+</head>
+<body>
+
+    <header>
+        <h2>タイピングゲーム</h2>
+        <p>ルール：スタートボタンを押すとカーソルが勝手に移動するのでタイピングを始めてください。</p>
+        <p >残り:<span id="timer"></span>秒</p>
+        <button id="start-btn">スタートボタン</button>
+        <button id="reset-btn">もう一度挑戦する</button>
+    </header>
+    <main>
+        <p id="question">寿司うち</p>
+        <form name="typing">
+            <input id="input" type="text" name="test">
+        </form>
+    </main>
+    <footer>
+        <p>打てた数：<span id="count"></span></p>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
